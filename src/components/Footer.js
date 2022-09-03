@@ -10,7 +10,6 @@ export default function Footer(){
                <p>About</p>
                <div className="orange-dots"></div>
                <p>Support</p>
-
             </div>
         </footer>
     )

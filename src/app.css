@@ -9,13 +9,11 @@
 
 body {
     background: #1A2238;
-    /* width: 80%;
-    margin: auto; */
 }
 
 header {
     margin: 40px auto 0; 
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 80%;
 }
 
@@ -74,4 +72,15 @@ footer {
     width: 5px;
     background-color: #FF6A3D;
     border-radius: 50%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-section {
+    display: flex;
+    align-items: center;
 }
