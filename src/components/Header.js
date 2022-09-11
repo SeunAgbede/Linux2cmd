@@ -7,7 +7,7 @@ import Switch from '@mui/material/Switch';
 
 export default function Header() {
 
-    const [checked, setChecked] = React.useState(false);
+    const [checked, setChecked] = React.useState(true);
 
     const handleChange = (event) => {
         setChecked(event.target.checked);
@@ -19,7 +19,7 @@ export default function Header() {
         <header>
             <div className="header">
 
-                <img src={logo} alt="Linux2cmd" />
+                <img src={logo} alt="Linux2cmd" className="logo"/>
 
                 <div className="toggle-section">
 
