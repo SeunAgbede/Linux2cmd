@@ -2,7 +2,6 @@ import React from "react"
 import commandsList from "../data/commandsList"
 import Select from 'react-select'
 import cpbtn from "../assets/CopyVector.svg"
-import Typist from 'react-typist';
 
 
 export default function Lists() {
