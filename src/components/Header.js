@@ -1,29 +1,32 @@
 import React from "react"
 import logo from "../assets/Logo.svg"
+import logoLight from "../assets/LogoLight.svg"
 import day from "../assets/DayVector.svg"
+import dayLight from "../assets/DayVector-Light.svg"
 import night from "../assets/NightVector.svg"
+import nightLight from "../assets/NightVector-Light.svg"
+import { Context } from "../Context";
 import Switch from '@mui/material/Switch';
 
 
 export default function Header() {
 
-    const [checked, setChecked] = React.useState(true);
+    const { checked, setChecked } = React.useContext(Context);
 
     const handleChange = (event) => {
         setChecked(event.target.checked);
-        console.log("We live!")
     };
 
 
     return (
         <header>
             <div className="header">
-
-                <img src={logo} alt="Linux2cmd" className="logo"/>
+                <a href="/">
+                    <img src={checked ? logo : logoLight} alt="Linux2cmd" className="logo" />
+                </a>
 
                 <div className="toggle-section">
-
-                    <img src={day} alt="Day" />
+                    <img src={checked ? day : dayLight} alt="Day" />
 
                     <Switch
                         checked={checked}
@@ -31,8 +34,7 @@ export default function Header() {
                         inputProps={{ 'aria-label': 'controlled' }}
                     />
 
-                    <img src={night} alt="Night" />
-
+                    <img src={checked ? night : nightLight} alt="Night" />
                 </div>
             </div>
         </header>

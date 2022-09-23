@@ -2,24 +2,53 @@ import React from "react"
 import commandsList from "../data/commandsList"
 import Select from 'react-select'
 import cpbtn from "../assets/CopyVector.svg"
+import copy from "copy-to-clipboard";
+import { Context } from "../Context";
+
 
 
 export default function Lists() {
 
+    // passing global state for theme toggle switch
+    const { checked, setChecked } = React.useContext(Context);
 
-    const [selectedOption, setSelectedOption] = React.useState("");
+    //
+    // initialised to false to avoid copypop before  
+    const [selectedOption, setSelectedOption] = React.useState(false);
 
-
+    // Select component styles
     const selectStyles = {
         control: (provided) => ({
             ...provided,
             width: '300px',
+            height: '50px',
             marginRight: ' 50px'
         }),
         dropdownIndicator: (provided) => ({
             ...provided,
             color: '#1A2238'
         }),
+        menu: (provided) => ({
+            ...provided,
+            width: '300px'
+        })
+    }
+
+    //cpbtn
+    const [isPopUp, setIsPopUp] = React.useState(false)
+
+    let copyText = selectedOption.cmd
+
+    function copyToClipboard() {
+       
+        copy(copyText);
+
+        setIsPopUp(true)
+
+        setTimeout(() => {
+            setIsPopUp(false)
+        }, 900)
+        
     }
 
 
@@ -28,7 +57,7 @@ export default function Lists() {
         <div className="lists-main">
 
             <div>
-                <p className="labels">linux</p>
+                <p className={checked ? "labels" : "labels labels-light"}>linux</p>
 
                 <Select
                     styles={selectStyles}
@@ -42,17 +71,25 @@ export default function Lists() {
 
             <div>
                 <div className="cmd">
-                    <p className="labels">cmd</p>
+
+                    <p className={checked ? "labels" : "labels labels-light"}>cmd</p>
 
                     <div className="cmd-main">
+
                         <p className="cmd-area">{selectedOption.cmd}</p>
-                        <img src={cpbtn} alt="copy" className="cpbtn" />
+
+                        {isPopUp && copyText && <div className="cpbtn-popup">Command<br />Copied</div>}
+
+                        <div className="cpbtn" onClick={copyToClipboard}>
+                            <img src={cpbtn} alt="copy" />
+                        </div>
+
                     </div>
 
                 </div>
 
                 <div className="note">
-                    <p className="labels">Note</p>
+                    <p className={checked ? "labels" : "labels labels-light"}>Note</p>
                     <p className="note-area">{selectedOption.note}</p>
                 </div>
             </div>
@@ -60,3 +97,4 @@ export default function Lists() {
         </div>
     )
 }
+
