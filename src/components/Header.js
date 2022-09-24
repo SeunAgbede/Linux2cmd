@@ -13,8 +13,8 @@ export default function Header() {
 
     const { checked, setChecked } = React.useContext(Context);
 
-    const handleChange = (event) => {
-        setChecked(event.target.checked);
+    function handleChange(e) {
+        setChecked(e.target.checked);
     };
 
 

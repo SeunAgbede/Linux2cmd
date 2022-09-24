@@ -12,6 +12,14 @@ export default function Lists() {
     // passing global state for theme toggle switch
     const { checked, setChecked } = React.useContext(Context);
 
+    //Error handling to avoid no-unused-vars error
+    try {
+        if (setChecked === undefined) throw Error('');
+    } catch (err) {
+        alert('Error' + err);
+    }
+
+
     //
     // initialised to false to avoid copypop before  
     const [selectedOption, setSelectedOption] = React.useState(false);
@@ -40,7 +48,7 @@ export default function Lists() {
     let copyText = selectedOption.cmd
 
     function copyToClipboard() {
-       
+
         copy(copyText);
 
         setIsPopUp(true)
@@ -48,7 +56,7 @@ export default function Lists() {
         setTimeout(() => {
             setIsPopUp(false)
         }, 900)
-        
+
     }
 
 

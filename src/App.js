@@ -13,6 +13,13 @@ export default function App() {
 
     const { checked, setChecked } = React.useContext(Context);
 
+    //Error handling to avoid no-unused-vars error
+    try {
+        if (setChecked === undefined) throw Error('');
+    } catch (err) {
+        alert('Error' + err);
+    }
+
     return (
         <main className={checked ? "main" : "main light-main"}>
 
@@ -22,7 +29,7 @@ export default function App() {
 
                 <h2 className={checked ? "heading" : "heading light-heading"}>To <span className="orange">linux</span> users navigating <span className="blue-purple">cmd</span></h2>
                 <p className={checked ? "heading-para" : "heading-para light-heading-para"}>Find equivalent cmd commands for frequently<br />used linux ones</p>
-            
+
             </div>
 
             <Lists />

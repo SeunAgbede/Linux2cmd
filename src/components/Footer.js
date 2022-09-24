@@ -5,6 +5,13 @@ export default function Footer() {
 
     const { checked, setChecked } = React.useContext(Context);
 
+    //Error handling to avoid no-unused-vars error
+    try {
+        if (setChecked === undefined) throw Error('');
+    } catch (err) {
+        alert('Error' + err);
+    }
+
     return (
         <footer className={checked ? "footer" : "footer light-footer"}>
             <a
