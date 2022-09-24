@@ -7,7 +7,9 @@ export default function Footer() {
 
     //Error handling to avoid no-unused-vars error
     try {
-        if (setChecked === undefined) throw Error('');
+        if (setChecked === undefined) {
+            throw Error('');
+        }
     } catch (err) {
         alert('Error' + err);
     }
