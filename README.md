@@ -5,13 +5,7 @@
 
 [Visit Site](https://linux2cmd.netlify.app/)
 
-Things left to do
-- Update commands list
-- Refactor code (css and all components) + use context according to React docs
-- Update Readme
-- Dockerise app (refer to the git explorer)
-- Add the contribution section
-- Add figma files
+
 
 
 
