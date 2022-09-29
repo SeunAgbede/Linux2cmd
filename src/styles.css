@@ -8,6 +8,7 @@
 }
 
 /* Arranged by Components */
+
 /* Header */
 header {
     margin: 40px auto 0;
@@ -248,6 +249,11 @@ header {
         align-items: center;
         justify-content: start;
     }
+
+    .cpbtn-popup {
+        left: 226px;  
+    }
+
 
     .cmd-area {
         width: 300px;
