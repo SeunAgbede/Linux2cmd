@@ -21,8 +21,6 @@ export default function Lists() {
         alert('Error' + err);
     }
 
-
-    //
     // initialised to false to avoid copypop before  
     const [selectedOption, setSelectedOption] = React.useState(false);
 
@@ -32,7 +30,6 @@ export default function Lists() {
             ...provided,
             width: '300px',
             height: '50px',
-            marginRight: ' 50px'
         }),
         dropdownIndicator: (provided) => ({
             ...provided,
@@ -72,14 +69,15 @@ export default function Lists() {
                 <Select
                     styles={selectStyles}
                     defaultValue={selectedOption}
-                    className="lists"
+                    className="select-list"
                     placeholder={"Enter command ..."}
                     onChange={setSelectedOption}
                     options={commandsList}
                 />
             </div>
 
-            <div>
+            <div className="cmd-cmd">
+
                 <div className="cmd">
 
                     <p className={checked ? "labels" : "labels labels-light"}>cmd</p>
@@ -88,7 +86,8 @@ export default function Lists() {
 
                         <p className="cmd-area">{selectedOption.cmd}</p>
 
-                        {isPopUp && copyText && <div className="cpbtn-popup">Command<br />Copied</div>}
+                        {isPopUp && copyText && <div className="cpbtn-popup  slide-top">Copied!</div>}
+
 
                         <div className="cpbtn" onClick={copyToClipboard}>
                             <img src={cpbtn} alt="copy" />
@@ -102,6 +101,7 @@ export default function Lists() {
                     <p className={checked ? "labels" : "labels labels-light"}>Note</p>
                     <p className="note-area">{selectedOption.note}</p>
                 </div>
+
             </div>
 
         </div>

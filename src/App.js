@@ -29,7 +29,7 @@ export default function App() {
 
             <div className="main-text">
 
-                <h2 className={checked ? "heading" : "heading light-heading"}>To <span className="orange">linux</span> users navigating <span className="blue-purple">cmd</span></h2>
+                <h2 className={checked ? "heading" : "heading light-heading"}>To <span className="orange">linux</span> users navigating <span className="purple">cmd</span></h2>
                 <p className={checked ? "heading-para" : "heading-para light-heading-para"}>Find equivalent cmd commands for frequently<br />used linux ones</p>
 
             </div>
