@@ -6,7 +6,6 @@ import copy from "copy-to-clipboard";
 import { Context } from "../Context";
 
 
-
 export default function Lists() {
 
     // passing global state for theme toggle switch
@@ -58,7 +57,6 @@ export default function Lists() {
 
     }
 
-
     return (
 
         <div className="lists-main">
@@ -88,7 +86,6 @@ export default function Lists() {
 
                         {isPopUp && copyText && <div className="cpbtn-popup  slide-top">Copied!</div>}
 
-
                         <div className="cpbtn" onClick={copyToClipboard}>
                             <img src={cpbtn} alt="copy" />
                         </div>
@@ -98,9 +95,16 @@ export default function Lists() {
                 </div>
 
                 <div className="note">
-                    <p className={checked ? "labels" : "labels labels-light"}>Note</p>
-                    <p className="note-area">{selectedOption.note}</p>
+                    <p className={checked ? "labels" : "labels labels-light"}>Syntax</p>
+                    <p className="note-area">{selectedOption.syntax}</p>
                 </div>
+                
+                <div className="note">
+                    <p className={checked ? "labels" : "labels labels-light"}>Description</p>
+                    <p className="note-area">{selectedOption.des}</p>
+                </div>
+
+
 
             </div>
 

@@ -7,8 +7,6 @@
     font-family: 'Ubuntu Mono', monospace;
 }
 
-/* Arranged by Components */
-
 /* Header */
 header {
     margin: 40px auto 0;
@@ -159,11 +157,10 @@ header {
     }
   }
   
-
 .note-area {
     background-color: #ffffff;
     width: 350px;
-    height: 120px;
+    height: 65px;
     border-radius: 4px;
     padding: 10px;
     border: 1px solid #cccccc;
@@ -254,7 +251,6 @@ header {
         left: 226px;  
     }
 
-
     .cmd-area {
         width: 300px;
     }
@@ -266,5 +262,4 @@ header {
     .cmd-cmd {
         margin-top: 40px;
     }
-
 }
