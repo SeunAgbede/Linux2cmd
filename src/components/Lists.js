@@ -94,17 +94,19 @@ export default function Lists() {
 
                 </div>
 
-                <div className="note">
-                    <p className={checked ? "labels" : "labels labels-light"}>Syntax</p>
-                    <p className="note-area">{selectedOption.syntax}</p>
-                </div>
+                { selectedOption.syntax &&
+                    <div className="note">
+                        <p className={checked ? "labels" : "labels labels-light"}>Syntax</p>
+                        <p className="note-area">{selectedOption.syntax}</p>
+                    </div>
+                }
                 
-                <div className="note">
+                { selectedOption.des &&
+                <div className="des">
                     <p className={checked ? "labels" : "labels labels-light"}>Description</p>
-                    <p className="note-area">{selectedOption.des}</p>
+                    <p className="des-area">{selectedOption.des}</p>
                 </div>
-
-
+                }
 
             </div>
 

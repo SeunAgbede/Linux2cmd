@@ -71,7 +71,6 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    height: 75vh;
 }
 
 .labels {
@@ -89,20 +88,22 @@ header {
 }
 
 .cmd,
-.note {
+.note,
+.des {
     margin-bottom: 40px;
 }
 
 .cmd-area {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     width: 350px;
     height: 50px;
     border-radius: 4px;
-    padding-left: 10px;
+    padding-left: 20px;
     border: 1px solid #cccccc;
     color: #1A2238;
+    font-style: italic;
 }
 
 .cmd-main {
@@ -132,39 +133,45 @@ header {
 }
 
 .slide-top {
-	-webkit-animation: slide-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: slide-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-top {
     0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
+
     100% {
-      -webkit-transform: translateY(-5px);
-              transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
     }
-  }
-  @keyframes slide-top {
+}
+
+@keyframes slide-top {
     0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
+
     100% {
-      -webkit-transform: translateY(-5px);
-              transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
     }
-  }
-  
-.note-area {
+}
+
+.note-area,
+.des-area {
+    display: flex;
+    align-items: center;
     background-color: #ffffff;
     width: 350px;
-    height: 65px;
     border-radius: 4px;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #cccccc;
-    color: #1A2238
+    color: #1A2238;
+    font-style: italic;
 }
 
 
@@ -174,7 +181,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 110vh;
+    height: 100vh;
     transition: 0.1s;
 }
 
@@ -248,14 +255,14 @@ header {
     }
 
     .cpbtn-popup {
-        left: 226px;  
+        left: 226px;
     }
 
     .cmd-area {
         width: 300px;
     }
 
-    .note-area {
+    .note-area, .des-area {
         width: 300px;
     }
 
