@@ -235,6 +235,10 @@ header {
 /* Media Query */
 @media only screen and (max-width: 768px) {
 
+    .main{
+        height: 130vh;
+    }
+
     .main-text {
         width: 80%;
         padding-top: 60px;
