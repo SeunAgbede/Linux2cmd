@@ -22,11 +22,11 @@
 
 ## Intro
 
-In recent times, I found myself having to work with VM's running on Microsoft Windows OS and as such, have intereacted a lot more with Command Prompt (cmd) - the default command-line interpreter for MS Windows. 
+In recent months, i've found myself having to work more with VM's running on Microsoft Windows OS and as such, have intereacted a lot more with Command Prompt (`cmd`).
 
-Many times, i'd want to run a command that I know in `linux` but not on `cmd`. It would often take me minutes googling the right equivalent `cmd` command and that frustrated me... a lot :rage:.
+Many times, i'd want to run a command that I know in `linux` but not on `cmd`. It would often take me anywhere betweeen a few seconds and minutes finding the right `cmd` command and that frustrated me... a lot :rage:
 
-I thought to build to help more `linux` oriented engineers like myself save some time. Hope you enjoy and possibly even find this useful.
+I thought to build this project to help more `linux` oriented engineers potentially save some time. Hope you enjoy and possibly  find this useful!
 
 You can [visit the website here](https://linux2cmd.netlify.app/) to get going! :rocket:
 
@@ -36,8 +36,8 @@ You can [visit the website here](https://linux2cmd.netlify.app/) to get going! :
 ## Tech Stach
 
 - Figma
-- Netlify
 - React
+- Netlify
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4a5388a1-14eb-437f-b76d-5d0683d3e5f5/deploy-status)](https://app.netlify.com/sites/linux2cmd/deploys)
 
@@ -76,8 +76,7 @@ Below is a mock up of what I originally intended but as always, some details cha
 
 ## Donate
 
-lorem Ipsum
+If you've found this project useful, please feel free to contribute to its success by dropping a kind donation. kindly [follow the this link](https://gofund.me/cf7907e1) if you so wish.
 
-
-
+Thank you :hearts:
 
