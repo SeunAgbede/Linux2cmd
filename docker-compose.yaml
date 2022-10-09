@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  app:
+    container_name: linux2cmd-c
+    image: linux2cmd-i
+    build:
+      context: .
+    ports:
+      - 8080:80
