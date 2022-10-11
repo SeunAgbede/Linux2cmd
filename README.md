@@ -58,14 +58,13 @@ cd Linux2cmd
 # install dependencies
 npm install
 
-# Run in browser (by default http://localhost:3000)
+# run in browser (by default http://localhost:3000)
 npm start
 
 
 // Method 2
 
-# Ensure you have docker installed as a container runtime engine  
-# Run in a container
+# ensure you have docker installed to run in a container
 docker-compose up
 
 # In browser, navigate to http://localhost:8080 
