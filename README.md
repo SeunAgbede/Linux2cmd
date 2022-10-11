@@ -22,7 +22,7 @@
 
 ## Intro
 
-Recently, i've found myself working more with VM's running on Microsoft Windows OS and as such, have intereacted greater with Command Prompt `cmd`.
+Recently, i've found myself working more with VM's running on Microsoft Windows OS and as such, have intereacted greater with Command Prompt.
 
 Many times, i'd want to run a command that I know in `linux` but not on `cmd`. It would often take me anywhere betweeen a few seconds and minutes to find the right command which I found frustrating at times :rage:
 
@@ -46,7 +46,31 @@ You can [visit the website here](https://linux2cmd.netlify.app/) to get going! :
 
 ## Run Locally
 
-lorem Ipsum
+```
+// Method 1 
+
+# clone repository
+git clone https://github.com/SeunAgbede/Linux2cmd.git
+
+# change directory
+cd Linux2cmd
+
+# install dependencies
+npm install
+
+# Run in browser (by default http://localhost:3000)
+npm start
+
+
+// Method 2
+
+# Ensure you have docker installed as a container runtime engine  
+# Run in a container
+docker-compose up
+
+# In browser, navigate to http://localhost:8080 
+
+```
 
 
 
@@ -76,5 +100,7 @@ Below is a mock up of what I originally intended but as always, some details cha
 
 ## Donate
 
-If you've found this project useful, please feel free to contribute to its success by dropping a kind donation. kindly [follow the this link](https://gofund.me/cf7907e1) for more details. Thank you :hearts:
+If you've found this project useful, please feel free to contribute to its success by dropping a kind donation.
+
+Kindly [follow the this link](https://gofund.me/cf7907e1) for more details. Thank you :hearts:
 
