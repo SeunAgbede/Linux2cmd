@@ -22,11 +22,11 @@
 
 ## Intro
 
-Recently, i've found myself working more with VM's running on Microsoft Windows OS and as such, have intereacted greater with Command Prompt.
+Recently, i've found myself working more with Windows machines and by extension Command Prompt.
 
-Many times, i'd want to run a command that I know in `linux` but not on `cmd`. It would often take me anywhere betweeen a few seconds and minutes to find the right command which I found frustrating at times :rage:
+Many times, i'd want to run a command I know well in `linux` but not quite on `cmd`. It would often take me betweeen a few seconds and sometimes minutes trying to find the right command online which I've found frustrating :rage:
 
-I thought to build this project to help more `linux` oriented engineers potentially save time. Hope you enjoy and possibly find this useful!
+I thought to put this project together for `linux` oriented engineers who might be in similar shoes. Hope you enjoy and possibly find this time saving!
 
 You can [visit the website here](https://linux2cmd.netlify.app/) to get going! :rocket:
 
@@ -67,7 +67,7 @@ npm start
 # ensure you have docker installed to run in a container
 docker-compose up
 
-# In browser, navigate to http://localhost:8080 
+# in browser, navigate to http://localhost:8080 
 
 ```
 
