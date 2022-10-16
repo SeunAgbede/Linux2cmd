@@ -86,7 +86,7 @@ export default function Lists() {
 
                         {isPopUp && copyText && <div className="cpbtn-popup  slide-top">Copied!</div>}
 
-                        <div className="cpbtn" onClick={copyToClipboard}>
+                        <div className="cpbtn" onClick={copyToClipboard} title="Copy">
                             <img src={cpbtn} alt="copy" />
                         </div>
 

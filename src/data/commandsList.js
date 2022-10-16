@@ -125,6 +125,27 @@ const commands = [
     syntax: 'rd /s <directoryname>',
     des: 'Delete directory and is contents recursively'
   },
+  {
+    value: 'lsmod',
+    label: 'lsmod',
+    cmd: 'driverquery',
+    syntax: '',
+    des: 'Displays a list of installed device drivers and their properties'
+  },
+  {
+    value: 'sudo lshw',
+    label: 'sudo lshw',
+    cmd: 'systeminfo',
+    syntax: '',
+    des: 'Displays detailed configuration information about a computer and its operating system'
+  },
+  {
+    value: 'env',
+    label: 'env',
+    cmd: 'set',
+    syntax: '',
+    des: 'Displays, sets, or removes cmd.exe environment variables'
+  },
 
 ]
 

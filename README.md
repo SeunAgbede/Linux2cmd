@@ -22,11 +22,11 @@
 
 ## Intro
 
-Recently, i've found myself working more with Windows machines and by extension Command Prompt.
+Recently, i've found myself working a lot more with Windows machines and by extension Command Prompt.
 
-Many times, i'd want to run a command I know well in `linux` but not quite on `cmd`. It would often take me betweeen a few seconds and sometimes minutes trying to find the right command online which I've found frustrating :rage:
+Many times, i'd want to run a command I know in `linux` but not quite well on `cmd`. Searching for the right command online often takes me a few seconds to sometimes minutes - which I've found frustrating :rage:.
 
-I thought to put this project together for `linux` oriented engineers who might be in similar shoes. Hope you enjoy and possibly find this time saving!
+I thought to put this project together for other `linux` oriented users who might be in a similar situation. Hope you enjoy and possibly find this useful!
 
 You can [visit the website here](https://linux2cmd.netlify.app/) to get going! :rocket:
 
