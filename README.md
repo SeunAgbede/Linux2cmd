@@ -24,7 +24,7 @@
 
 Recently, i've found myself working a lot more with Windows machines and by extension Command Prompt.
 
-Many times, i'd want to run a command I know in `linux` but not quite well on `cmd`. Searching for the right command online often takes me a few seconds to sometimes minutes - which I've found frustrating :rage:.
+Many times, i'd want to run a command I know in `linux` but not quite well on `cmd`. Searching for the right command online often takes me a few seconds to sometimes minutes - which I've found frustrating :angry:.
 
 I thought to put this project together for other `linux` oriented users who might be in a similar situation. Hope you enjoy and possibly find this useful!
 
