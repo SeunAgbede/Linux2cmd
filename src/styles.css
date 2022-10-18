@@ -7,6 +7,10 @@
     font-family: 'Ubuntu Mono', monospace;
 }
 
+.test{
+    padding: 0 0 3rem 0;
+}
+
 /* Header */
 header {
     margin: 40px auto 0;
@@ -183,6 +187,7 @@ header {
     align-items: center;
     height: 100vh;
     transition: 0.1s;
+    overflow: hidden;
 }
 
 .light-main {
