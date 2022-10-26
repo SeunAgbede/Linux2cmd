@@ -40,11 +40,11 @@ export default function Footer() {
 
             <a
                 className={checked ? "footer-link" : "footer-link light-footer"}
-                href="https://gofund.me/cf7907e1"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <p>Donate</p>
+                <p>Support</p>
             </a>
         </footer>
     )
