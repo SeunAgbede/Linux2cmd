@@ -101,5 +101,5 @@ Below is a mock up of what I originally intended but as always, some details cha
 
 If you've found this project useful, please feel free to contribute to its success by dropping a kind donation.
 
-Kindly [follow the this link](https://gofund.me/cf7907e1) for more details. Thank you :hearts:
+Kindly [follow the this link](https://www.buymeacoffee.com/oluwaseunA) for more details. Thank you :hearts:
 
