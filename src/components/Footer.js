@@ -40,7 +40,7 @@ export default function Footer() {
 
             <a
                 className={checked ? "footer-link" : "footer-link light-footer"}
-                href=""
+                href="https://www.buymeacoffee.com/oluwaseunA"
                 target="_blank"
                 rel="noopener noreferrer"
             >
