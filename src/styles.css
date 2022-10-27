@@ -188,7 +188,7 @@ header {
     align-items: center;
     height: 100vh;
     transition: 0.1s;
-    overflow: auto;
+    overflow: overlay;
 }
 
 .light-main {
