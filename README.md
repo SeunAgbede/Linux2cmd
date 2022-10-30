@@ -14,7 +14,7 @@
 
 [Design Files](#design)
 
-[Donate](#donate)
+[Support](#support)
 
 ---
 
@@ -24,7 +24,7 @@
 
 Recently, i've found myself working a lot more with Windows machines and by extension Command Prompt.
 
-Many times, i'd want to run a command I know in `linux` but not quite well on `cmd`. Searching for the right command online often takes me a few seconds to sometimes minutes - which I've found frustrating :angry:.
+Many times, i'd want to run a `linux` command but not know what it is on `cmd`. Searching for the right command online often takes me a few seconds to sometimes minutes - which I've found frustrating :angry:.
 
 I thought to put this project together for other `linux` oriented users who might be in a similar situation. Hope you enjoy and possibly find this useful!
 
@@ -49,7 +49,9 @@ You can [visit the website here](https://linux2cmd.netlify.app/) to get going! :
 ```
 // Method 1 
 
-# clone repository
+# Prerequisite: have npm installed
+
+# clone project
 git clone https://github.com/SeunAgbede/Linux2cmd.git
 
 # change directory
@@ -64,8 +66,10 @@ npm start
 
 // Method 2
 
-# ensure you have docker installed to run in a container
-docker-compose up
+# Prerequisite: have Docker installed and configured
+
+# create and start containers
+docker compose up
 
 # in browser, navigate to http://localhost:8080 
 
@@ -95,11 +99,9 @@ Below is a mock up of what I originally intended but as always, some details cha
 
 
 
-<a name="donate"/>
+<a name="support"/>
 
-## Donate
+## Support
 
-If you've found this project useful, please feel free to contribute to its success by dropping a kind donation.
-
-Kindly [follow the this link](https://www.buymeacoffee.com/oluwaseunA) for more details. Thank you :hearts:
+If you've found this project useful, please feel free to support by [buying me a coffee](https://www.buymeacoffee.com/oluwaseunA). Thank you :hearts:
 
