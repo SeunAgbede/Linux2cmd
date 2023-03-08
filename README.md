@@ -46,8 +46,8 @@ You can [visit the website here](https://linux2cmd.netlify.app/) to get going! :
 
 ## Run Locally
 
+#### Method 1 
 ```
-// Method 1 
 
 # Prerequisite: have npm installed
 
@@ -63,8 +63,11 @@ npm install
 # run in browser (by default http://localhost:3000)
 npm start
 
+```
 
-// Method 2
+#### Method 2
+
+```
 
 # Prerequisite: have Docker installed and configured
 
@@ -81,17 +84,16 @@ docker compose up
 
 ## Contribute
 
-lorem Ipsum
+Thank you for your interest in contributing to this project.
 
+All types of contributions are valued. 
 
 
 <a name="design"/>
 
 ## Design Files
 
-If you're interested, see the [original design files](https://www.figma.com/file/JpMfUQs16bbFBo5ZeElkhK/Linux2cmd?node-id=0%3A1) for this project created with Figma. 
-
-Staying true to the designer in me :v::sparkles:
+If you're interested, see the [original design files](https://www.figma.com/file/JpMfUQs16bbFBo5ZeElkhK/Linux2cmd?node-id=0%3A1) for this project created with Figma. Staying true to the designer in me :v::sparkles:
 
 Below is a mock up of what I originally intended but as always, some details changed while building.
 
