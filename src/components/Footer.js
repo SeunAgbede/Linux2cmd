@@ -18,7 +18,7 @@ export default function Footer() {
         <footer className={checked ? "footer" : "footer light-footer"}>
             <a
                 className={checked ? "footer-link" : "footer-link light-footer"}
-                href="https://twitter.com/seun_agb"
+                href="https://twitter.com/olu_agbede"
                 target="_blank"
                 rel="noopener noreferrer"
             >
